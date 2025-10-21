@@ -55,7 +55,7 @@ const StepOne = () => {
 
     try {
       const response = await axios.post(
-        "https://api.kova-app.com/api/v1/auth/signup",
+        "https://example.com/api/v1/auth/signup",
         {
           role: "provider",
           email: formData.email,

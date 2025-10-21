@@ -132,7 +132,7 @@ const InfoPerso = () => {
             }
 
             const response = await axios.post(
-                "https://api.kova-app.com/api/v1/auth/signup/finish",
+                "https://example.com/api/v1/auth/signup/finish",
                 requestData,
                 {
                     headers: {

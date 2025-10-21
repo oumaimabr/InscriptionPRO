@@ -138,7 +138,7 @@ const StepTwo = () => {
     try {
       setIsLoading(true);
       const response = await axios.post(
-        "https://api.kova-app.com/api/v1/auth/signup",
+        "https://example.com/api/v1/auth/signup",
         {
           role: "provider",
           email: email,
@@ -185,7 +185,7 @@ const StepTwo = () => {
 
     try {
       const response = await axios.post(
-        "https://api.kova-app.com/api/v1/auth/signup/verify",
+        "https://example.com/api/v1/auth/signup/verify",
         {
           code: code,
           email: email,
