@@ -1,0 +1,58 @@
+.sign-up{
+   min-height: 100dvh;
+    padding: 16px;
+    overflow: auto;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-signup{
+    background-color: white;
+    border-radius: 20px;
+    padding: 90px 30px;
+  
+    flex: 0 0 auto;
+}
+.left-side{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.password-requirements ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-family: Gabarito;
+
+}
+.password-requirements li{
+   
+    color: #d32f2f;
+  }
+  .password-requirements li.valid {
+    font-family: Gabarito;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+letter-spacing: 0%;
+
+color: rgba(111, 111, 111, 1);
+
+  }
+  .parrinage-box{
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 8px;
+    border: none !important;
+    
+  }
+  
